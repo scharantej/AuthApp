@@ -1,0 +1,21 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile Page</title>
+</head>
+<body>
+<h1>Profile</h1>
+<p>Welcome, {{ username }}!</p>
+<p>Here, you can view and edit your profile information.</p>
+<ul>
+<li>Username: {{ username }}</li>
+<li>Email: {{ email }}</li>
+<li>Profile Picture: {{ profile_picture }}</li>
+</ul>
+<a href="/edit_profile">Edit Profile</a>
+<a href="/logout">Logout</a>
+</body>
+</html>
+
